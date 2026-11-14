@@ -10,13 +10,16 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public Animator animator;
+    public GameObject textBox;
     void Start()
     {
         sentences = new Queue <string> ();
+        textBox.SetActive(false);
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
+        textBox.SetActive(true);
         animator.SetBool("isOpen", true);
         nameText.text = dialogue.name;
 
@@ -26,7 +29,7 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue (sentence);
         }
-
+        PlayerMovement.isTalking = true;
         DisplayNextSentence();
     }
 
@@ -56,6 +59,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        PlayerMovement.isTalking = false;
         animator.SetBool("isOpen", false);
     }
 }
