@@ -1,13 +1,14 @@
 using UnityEngine;
 
-public class TakeItem : MonoBehaviour
+public class GiveCroissant : MonoBehaviour
 {
     public PlayerMovement playerMovement;
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.CompareTag("Player"))
         {
-            playerMovement.pickedUp.SetActive(false);
+            playerMovement.item1Held = false;
+            playerMovement.item2Held = true;
         }
     }
 }

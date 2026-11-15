@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public Animator animator;
     public GameObject textBox;
+    public PlayerMovement playerMovement;
     void Start()
     {
         sentences = new Queue <string> ();
@@ -29,7 +30,7 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue (sentence);
         }
-        PlayerMovement.isTalking = true;
+        playerMovement.isTalking = true;
         DisplayNextSentence();
     }
 
@@ -59,7 +60,9 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        PlayerMovement.isTalking = false;
+        playerMovement.isTalking = false;
         animator.SetBool("isOpen", false);
+        playerMovement.item1Held = false;
+        playerMovement.item2Held = false;
     }
 }

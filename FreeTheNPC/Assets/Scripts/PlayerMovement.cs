@@ -16,21 +16,27 @@ public class PlayerMovement : MonoBehaviour
     public float crouchHeight = 1f;
     public float crouchSpeed = 3f;
 
-    static public bool isTalking = false;
+    public bool isTalking;
 
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
     private CharacterController characterController;
 
     private bool canMove = true;
-    public GameObject pickedUp;
+    public GameObject item1;
+    public GameObject item2;
+
+    public bool item1Held;
+    public bool item2Held;
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         // Cursor.lockState = CursorLockMode.Locked;
         // Cursor.visible = false;
-        pickedUp.SetActive(false);
+        item1Held = false;
+        item2Held = false;
+        isTalking = false;
     }
 
     void Update()
@@ -96,6 +102,21 @@ public class PlayerMovement : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             // Cursor.lockState = CursorLockMode.Locked;
             // Cursor.visible = false;
+        }
+
+        if (item1Held == false)
+        {
+            item1.SetActive(false);
+        } else
+        {
+            item1.SetActive(true);
+        }
+        if (item2Held == false)
+        {
+            item2.SetActive(false);
+        } else
+        {
+            item2.SetActive(true);
         }
     }
 }

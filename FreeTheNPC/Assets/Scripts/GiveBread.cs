@@ -1,13 +1,14 @@
 using UnityEngine;
 
-public class GiveItem : MonoBehaviour
+public class GiveBread : MonoBehaviour
 {
     public PlayerMovement playerMovement;
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.CompareTag("Player"))
         {
-            playerMovement.pickedUp.SetActive(true);
+            playerMovement.item1Held = true;
+            playerMovement.item2Held = false;
         }
     }
 }
