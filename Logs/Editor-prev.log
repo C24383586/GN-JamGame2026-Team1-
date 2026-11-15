@@ -1,0 +1,409 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 5616)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 21408)
+VBCSCompiler prewarm took 20.38 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Jaiden" at "2026-11-15T12:47:06.1641432Z"
+Built from '6000.6/staging' branch; Version is '6000.6.9f1 (8c45277fb9c5) revision 9192743'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) Professional' Language: 'en' Physical Memory: 32639 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-15T12:47:06Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Unity.exe
+-projectpath
+C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-Jaiden
+-hubSessionId
+bab6ad90-91f8-4018-ba72-796c1d813043
+-accessToken
+H-0hBls0N7pD1XSp2Wrw-Bdia1X16oHdeoBnPfbSIE4001f
+Successfully changed project path to: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-
+C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [12360]  Target information:
+
+Player connection [12360]  * "[IP] 192.168.0.226 [Port] 55504 [Flags] 2 [Guid] 3884496981 [EditorId] 3884496981 [Version] 1048832 [Id] WindowsEditor(7,Jaidens-Workstation) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12360] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12360] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-22264" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.19.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Jaiden"
+[Licensing::IpcConnector] LicenseClient-Jaiden channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-Jaiden-1.19.0 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 15916)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-Jaiden-1.19.0, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Jaiden-1.19.0" at "2026-11-15T12:47:07.5094168Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15916, path: "C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.19.0+4cc3dda
+  Session Id:              6884bbc4622a49f793ea385cc6e1fc3c
+  Correlation Id:          028e9449925c2cf960d9042c4cb2ba46
+  External correlation Id: 1328338779158765229
+  Machine Id:              t1z7vFgUVWNRCfOuYnBqNieT0Qw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Jaiden-1.19.0" (connect: 0.10s, validation: 0.16s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Jaiden-1.19.0-notifications" at "2026-11-15T12:47:07.6940071Z"
+[Licensing::Module] Connected to LicensingClient (PId: 15916, launch time: 0.01, total connection time: 0.29s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token H-0hBls0N7...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375823586287-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.55s
+[Licensing::Module] Licensing is initialized (took 0.96s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 7e7886cab0b8291460480365a48feb0e
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-Unity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.9f1 (8c45277fb9c5)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-/Assets
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: AMD Radeon RX 7600
+[D3D12 Device Filter] Driver Version: 32.0.32015.7029
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 8152 MB
+[D3D12 Device Filter] Processor Count: 12
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 7600 (ID=0x7480)
+    Vendor:          ATI
+    VRAM:            8152 MB
+    App VRAM Budget: 7365 MB
+    Driver:          32.0.32015.7029
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003260 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.938 seconds
+Domain Reload Profiling: 1616ms
+	BeginReloadAssembly (162ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (149ms)
+		TypeCache.Refresh (274ms)
+			TypeCache.ScanAssembly (257ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (939ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (361ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 42 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.rider@3.1.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+  Built-in packages:
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.test-framework@01a8b42f9cf6)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-
+ExitCode: 4 Duration: 0s96ms
+[             ] Require frontend run.  Library/Bee/1900b0aE.dag couldn't be loaded
+ExitCode: -532462766 Duration: 1s259ms
+Total cache size 0
+Internal build system error. BuildProgram exited with code -532462766.
+Unhandled exception. System.IO.FileLoadException: Could not load file or assembly 'C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\Bee.Core.dll'. An Application Control policy has blocked this file. (0x800711C7)
+File name: 'C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\Bee.Core.dll'
+   at ScriptCompilationBuildProgram.ScriptCompilationBuildProgram.Main(String[] args)
+AssetDatabase: script compilation time: 1.807073s
+Total cache size after purge 0, took 00:00:00.0068922
+[ScriptCompilation] Requested script compilation because: Exiting safe mode
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-
+ExitCode: 4 Duration: 0s24ms
+[             ] Require frontend run.  Library/Bee/1900b0aE.dag couldn't be loaded
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-
+ExitCode: -532462766 Duration: 1s130ms
+Total cache size 0
+Total cache size after purge 0, took 00:00:00.0015850
+Internal build system error. BuildProgram exited with code -532462766.
+Unhandled exception. System.IO.FileLoadException: Could not load file or assembly 'C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\Bee.Core.dll'. An Application Control policy has blocked this file. (0x800711C7)
+File name: 'C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\Bee.Core.dll'
+   at ScriptCompilationBuildProgram.ScriptCompilationBuildProgram.Main(String[] args)
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.555 seconds
+Domain Reload Profiling: 1195ms
+	BeginReloadAssembly (311ms)
+		DisableScriptedObjects (34ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (234ms)
+		TypeCache.Refresh (9ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (556ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Starting new worker id: 0 with log in C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=ce05fc24a37a8e445ae34c72070c97d5): Total: 12.804 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=9006 ms
+		Asset DB Callback time: managed=28 ms, native=15 ms
+		Scripting: domain reloads=1, domain reload time=1927 ms, compile time=1811 ms, other=15 ms
+		Project Asset Count: scripts=169, non-scripts=61
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 18.008ms
+	ApplyChangesToAssetFolders: 0.617ms
+	Scan: 55.206ms
+	Collect global state as custom dependencies: 13.947ms
+	CategorizeScriptCompilationAssets: 6.501ms
+	ProcessAssetsWithTransientArtifactChanges: 3.226ms
+	CategorizeAssets: 1.709ms
+	CompileScripts: 1811.442ms
+	ImportOutOfDateAssets: 571.087ms (556.791ms without children)
+		UnloadImportedAssets: 1.405ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.051ms
+		ImportSchedulerStart: 12.837ms
+	PostProcessAllAssets: 28.657ms
+		MonoPostProcessAllAssets: 28.539ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 10.449ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.593ms
+			SyncVS.PostprocessSyncProject 1.544ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.915ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.308ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.244ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.181ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.090ms
+	UnloadStreamsBegin: 1.631ms
+	Untracked: 10284.090ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Scanning for USB devices : 5.256ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-GN-JamGame2026-Team1-
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 501 unused Assets / (0.6 MB). Loaded Objects now: 1238.
+Memory consumption went from 245.1 MB to 244.6 MB.
+Total: 6.038200 ms (FindLiveObjects: 0.174200 ms CreateObjectMapping: 0.021600 ms MarkObjects: 5.394900 ms  DeleteObjects: 0.346900 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Jaiden/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+<RI> Input initialized.
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 17.868 seconds
+	Project init time: 				16.509 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		1.324 seconds
+		Asset Database init time: 		0.257 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			1.671 seconds
+		Unity extensions init time: 	0.003 seconds
+		Asset Database refresh time: 	12.804 seconds
+	Scene opening time: 			1.141 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794746844001,"processId":22264,"projectLoad":17.8681227,"projectInit":16.5094814,"templateInit":0.0,"packageManagerInit":1.3243652,"assetDatabaseInit":0.2574441,"globalIlluminationInit":0.0027405,"assembliesLoad":1.6714751,"unityExtensionsInit":0.0028502,"assetDatabaseRefresh":12.804455,"sceneOpening":1.1414669}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794746844001,"processId":22264,"editorVersion":"6000.6.9f1 (8c45277fb9c5)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=4e87cfd191b9d4440882c9bbcecbbe00): Total: 0.031 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Worker ready: AssetImportWorkerHW0 0
+Created GICache directory at C:/Users/Jaiden/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.022s, timestamps: [19.119 - 19.141]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "H-0hBls0"... (expires: 2026-11-15T14:33:31Z)
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/Jaiden/Documents/GitHub/GN-JamGame2026-Team1-/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter -> (ImportResultId: 'e7deeb2551deae0121fd5a6b039aae71') in 0.0087496 seconds
+Worker ready: AssetImportWorkerHW1 1
+Asset Pipeline Refresh (id=20ea8f71d6451e244911ff0a61f61d48): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=3609e92ca39347e458bde2ea98a5059a): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=9ae43e31d3644d14a9c6fce2ee37d553): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 3445; Successful remaps: 1178
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\Jaiden\Documents\GitHub\GN-JamGame2026-Team1-\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Jaiden/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Jaiden-1.19.0-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Jaiden-1.19.0 channel disconnected successfully.
+Shut down.
+Lingering sessions upon destruction of worker manager
+Shut down UDS service system complete
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000005388, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002760, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005388, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002760, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4036
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794746980815,"processId":22264,"allocatedMemory":12292373,"memoryLabels":[{"Default":174613},{"Permanent":15516},{"NewDelete":71929},{"Thread":4205600},{"Manager":32704},{"VertexData":8},{"Geometry":824},{"Texture":24},{"Shader":849475},{"Material":132},{"GfxDevice":63824},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":131640},{"Input":42840},{"JobScheduler":264},{"TextLib":21846},{"Mono":48},{"ScriptingNativeRuntime":1243480},{"BaseObject":49200},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":10374},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":1226212},{"StaticString":3808},{"Utility":2674382},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17165},{"ScriptManager":12688},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":12884},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":1201},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14536},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":267698},{"EditorUtility":177500},{"VersionControl":8},{"Undo":931},{"AssetDatabase":413223},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36918},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":212},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3602},{"Windowing":456},{"Licensing":840},{"AssetReference":32},{"IPCStream":32}]}
