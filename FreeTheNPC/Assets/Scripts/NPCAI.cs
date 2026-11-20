@@ -29,7 +29,7 @@ public class NPCAI : MonoBehaviour
         speed = 5;
         float step = speed * Time.deltaTime; 
         transform.position = Vector3.MoveTowards(transform.position, Target.position, step);
-        if (transform.position.z >= 40)
+        if (transform.position.z >= 30)
         {
             Target.position = ArrivingLocation.position;
         }
